@@ -1,5 +1,7 @@
 # flutter_sample_app
 
+app_gif.gif
+
 A new Flutter project.
 
 ## Getting Started
