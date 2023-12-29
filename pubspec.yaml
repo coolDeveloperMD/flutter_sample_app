@@ -1,0 +1,32 @@
+name: flutter_sample_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  youtube_player_flutter: ^8.1.2
+  equatable: ^2.0.5
+  flutter_secure_storage: ^9.0.0
+  get_it: ^7.6.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.5
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/src/products.json
